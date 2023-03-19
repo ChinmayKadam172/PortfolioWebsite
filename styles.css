@@ -27,9 +27,17 @@ body {
 	margin: auto;
 	margin-top: 20px;
 	padding: 20px 10px 10px 50px;
-	color: #050101;
+	color: white;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
 }
 
 h1 {
 	color: white;
+}
+
+.navbar-nav > li,
+h2 {
+	margin-right: 50px;
 }
